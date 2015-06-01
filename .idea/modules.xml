@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/KalenderAkademikUSK.iml" filepath="$PROJECT_DIR$/KalenderAkademikUSK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kalender_Akademik_USK.iml" filepath="$PROJECT_DIR$/Kalender_Akademik_USK.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
 </project>
-
