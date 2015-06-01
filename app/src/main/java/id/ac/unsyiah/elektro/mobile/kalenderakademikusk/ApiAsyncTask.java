@@ -60,7 +60,8 @@ public class ApiAsyncTask extends AsyncTask<Void, Void, Void> {
     private List<String> getDataFromApi() throws IOException {
         // List the next 10 events from the primary calendar.
         DateTime now = new DateTime(System.currentTimeMillis());
-        List<String> eventStrings = new ArrayList<String>();
+        List<String> eventStrings;
+        eventStrings = new ArrayList<>();
         Events events = mActivity.mService.events().list("primary")
                 .setMaxResults(10)
                 .setTimeMin(now)
