@@ -48,7 +48,7 @@ public class MainActivity extends Activity {
     static final int REQUEST_ACCOUNT_PICKER = 1000;
     static final int REQUEST_AUTHORIZATION = 1001;
     static final int REQUEST_GOOGLE_PLAY_SERVICES = 1002;
-    private static final String PREF_ACCOUNT_NAME = "accountName";
+    private static final String PREF_ACCOUNT_NAME = "mizafasarela@gmail.com";
     private static final String[] SCOPES = { CalendarScopes.CALENDAR_READONLY };
 
     /**
