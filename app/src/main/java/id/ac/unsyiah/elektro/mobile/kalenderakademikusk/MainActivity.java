@@ -48,7 +48,7 @@ public class MainActivity extends Activity {
     static final int REQUEST_ACCOUNT_PICKER = 1000;
     static final int REQUEST_AUTHORIZATION = 1001;
     static final int REQUEST_GOOGLE_PLAY_SERVICES = 1002;
-    private static final String PREF_ACCOUNT_NAME = "fahzulfirdaus@gmail.com";
+    private static final String PREF_ACCOUNT_NAME = "accountName";
     private static final String[] SCOPES = { CalendarScopes.CALENDAR_READONLY };
 
     /**
@@ -94,7 +94,7 @@ public class MainActivity extends Activity {
 
         mService = new com.google.api.services.calendar.Calendar.Builder(
                 transport, jsonFactory, credential)
-                .setApplicationName("Kalender Akademik USK")
+                .setApplicationName("Google Calendar API Android Quickstart")
                 .build();
     }
 
